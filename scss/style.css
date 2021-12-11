@@ -1,0 +1,294 @@
+.a {
+  margin: 0 5px;
+}
+
+.div19, .div23 {
+  border: 1px solid #fbefef;
+  -webkit-box-shadow: 2px 2px grey;
+  box-shadow: 2px 2px grey;
+  padding: 44px;
+  width: 20%;
+  text-align: center;
+  margin: 32px;
+}
+
+.q, .w, .e {
+  width: 73px;
+}
+
+.div36 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div32 {
+  position: relative;
+  top: 177px;
+  width: 292px;
+  padding: 12px 2px;
+}
+
+.div37, .div38, .div39 {
+  margin: 2% 22px 2% 2px;
+}
+
+.div29 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div33 {
+  color: #A0702E;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.div34 {
+  font-style: italic;
+  font-size: 23px;
+}
+
+.div34, .div33, .div34, .div35, .div36 {
+  padding: 0 35px;
+}
+
+.div35 {
+  line-height: 23px;
+  font-size: 17px;
+}
+
+.div27 {
+  width: 20%;
+  position: relative;
+  top: 75px;
+  left: 539px;
+}
+
+.div20, .div24 {
+  width: 20%;
+}
+
+.divers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.div17 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.div18 {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.div13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: lightgray;
+  padding: 7px 0;
+}
+
+.div6 {
+  font-size: 14px;
+  color: #333333;
+  padding: 2px 50px 2px 0px;
+}
+
+.div3 {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.div9 {
+  position: relative;
+}
+
+.div4 {
+  width: 322px;
+}
+
+.div10 {
+  position: absolute;
+  top: 135px;
+  left: 570px;
+  width: 34%;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 12px;
+}
+
+.div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.div5 {
+  color: #A0702E;
+  font-size: 75px;
+  padding: 2% 2% 2% 0;
+  margin: 2px 2px 2px 0;
+}
+
+* {
+  font-family: "Roboto";
+  margin: 0%;
+  padding: 0%;
+}
+
+.divv {
+  margin-top: 5%;
+}
+
+form {
+  font-size: large;
+  font-style: bold;
+}
+
+.a1 {
+  width: 40%;
+  margin-left: 110px;
+}
+
+.div7 {
+  font-size: 22px;
+  margin: 3% 3% 3% 0;
+}
+
+.btn1 {
+  color: white;
+  margin: 33px 0px;
+  padding: 2%;
+  background-color: #333333;
+}
+
+.div8 {
+  width: 50%;
+}
+
+.p {
+  width: 4%;
+}
+
+.div2 {
+  width: 10%;
+}
+
+.dive {
+  position: relative;
+  -webkit-animation: myanimation;
+          animation: myanimation;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes myanimation {
+  0% {
+    left: -800px;
+  }
+  100% {
+    left: 0;
+    right: 0;
+  }
+}
+
+@keyframes myanimation {
+  0% {
+    left: -800px;
+  }
+  100% {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .div3 {
+    display: block;
+  }
+  .div10
+.div5 {
+    color: #A0702E;
+    font-size: 75px;
+    padding: 3%;
+    margin: 2px;
+  }
+  .div6 {
+    font-size: 14px;
+    color: #333333;
+    padding: 2px 50px 2px 2px;
+  }
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 2px #afafaf;
+            box-shadow: 0px 2px #afafaf;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0px 12px;
+  }
+  .div1 {
+    display: none;
+  }
+  .div2 {
+    display: none;
+  }
+  .btn1 {
+    color: white;
+    margin: 53px 12px;
+    padding: 2%;
+    background-color: #333333;
+  }
+}
+/*# sourceMappingURL=style.css.map */
